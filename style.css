@@ -1,4 +1,100 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e6;
+    margin: 0;
+    padding: 0;
+    color: #5c3a2b;
 }
+
+.cabecalho {
+    background-color: #f8b195;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.5em;
+    color: #f67280;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #5c3a2b;
+    font-weight: bold;
+}
+
+.secao {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre {
+    background-color: #ffe0b5;
+}
+
+.produtos {
+    background-color: #fcd5ce;
+}
+
+.produto {
+    display: inline-block;
+    margin: 20px;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contato {
+    background-color: #fff0f0;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f67280;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c06c84;
+}
+
+
+.imagem-produto {
+    width: 100%;
+
+}
+

@@ -1,18 +1,61 @@
 <!DOCTYPE html>
-<html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Donut's Shopp</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONUT'S SHOPP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<h1>Donut's Shopp</h1>
-  
 <body>
-  Ativa desde 2012, a Donut's Shopp oferece diversas opções de donuts, agradando os paladares de crianças e adultos.
-  <script src="script.js"></script>
-</body>
+    <header class="cabecalho">
+        <h1 class="titulo">DONUT'S SHOPP</h1>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre" class="secao sobre">
+        <h2>SOBRE A DONUT'S</h2>
+        <img src="logo.png" alt="marca" class="imagem-produto">
+        <p>Ativa desde 2012, a Donut's Shopp oferece diversas opções de donuts, agradando os paladares de crianças e adultos.
+            Oferecemos donuts de diferentes sabores, com decorações que agradam aos olhos de crianças e adultos. Nossos valores são acessíveis, visamos atrair público de faixa-etária diversa. Temos um ambiente humano, que compreende as necessidades da acessibilidade a pessoas com deficiência motora. Confira;
+        </p>
+    </section>
+    <section id="produtos" class="secao produtos">
+        <h2>NOSSOS DIFERENCIAIS </h2>
+        <div class="galeria">
+            <div class="produto">
+                <img src="safe1.jpg" alt="safe" class="imagem-produto">
+        
+                <h3>Safe Área</h3>
+                <p>Oferecemos uma safe-área para pessoas neurodivergentes que precisem de silêncio e conforto.
+    </p>
+            </div>
+            <div class="produto">
+                <img src="kids.jpg" alt="criancas" class="imagem-produto">
+                <h1>Kids</h1>
+                <p>Nosso local conta com um playground interno para crianças de 3 a 11 anos, que ficam sob cuidados de um profissional, para que você curta com tranquilidade enquanto elas se divertem!</p>
+            </div>
+            <div class="produto">
+                <img src="insta.jpg" alt="instagram" class="imagem-produto">
+                <h1>Local Instagramável</h1>
+                <p>Temos uma área instagramável para fazeres fotos lindas! Poste e marque a loja!</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="secao contato">
+        <h1>Contato</h1>
+        <form>
+            <h3>Instagram da loja: @donateriaFavorita</h3>
+            <h3>Telefone para encomendas: (41) 99999-0000</h3>
+            <label for="mensagem">Deixe sua mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
+    <script src="script.js"></script>
+</body>
 </html>
